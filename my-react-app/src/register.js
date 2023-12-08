@@ -33,7 +33,7 @@ const handleInput =(e)=>{
 
   return (
     <div>
-
+ <h1>From đăng ký</h1> 
 <form ref={form} onSubmit={hanleSubmit}>
             <div>
              Ten <br/>

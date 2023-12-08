@@ -35,7 +35,7 @@ const handleInput =(e)=>{
 
   return (
     <div>
-
+ <h1>From đăng nhâp</h1> 
 <form ref={form} onSubmit={hanleSubmit}>
             <div>
              Ten <br/>
@@ -46,6 +46,9 @@ const handleInput =(e)=>{
 
              <button type='submit'>Register</button><br/>
           </form>
+
+
+        <h3> Chưa đăng ký tài khoản <a href={`http://localhost:3000/register`}>Đăng ký </a></h3>  
     </div>
   );
 }
